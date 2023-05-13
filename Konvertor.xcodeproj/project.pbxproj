@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA1D45B52A0FB7CF00B33652 /* ConvertObjemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D45B42A0FB7CF00B33652 /* ConvertObjemView.swift */; };
 		CA1D45B72A0FBC7600B33652 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D45B62A0FBC7600B33652 /* LinkView.swift */; };
+		CA1D45B92A0FC5AA00B33652 /* ConvertHmotnostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D45B82A0FC5AA00B33652 /* ConvertHmotnostView.swift */; };
 		CAA0D7842A0BFD58002FDC53 /* KonvertorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0D7832A0BFD58002FDC53 /* KonvertorApp.swift */; };
 		CAA0D7862A0BFD58002FDC53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0D7852A0BFD58002FDC53 /* ContentView.swift */; };
 		CAA0D7882A0BFD59002FDC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA0D7872A0BFD59002FDC53 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		CA1D45B42A0FB7CF00B33652 /* ConvertObjemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertObjemView.swift; sourceTree = "<group>"; };
 		CA1D45B62A0FBC7600B33652 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		CA1D45B82A0FC5AA00B33652 /* ConvertHmotnostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertHmotnostView.swift; sourceTree = "<group>"; };
 		CAA0D7802A0BFD58002FDC53 /* Konvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Konvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA0D7832A0BFD58002FDC53 /* KonvertorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonvertorApp.swift; sourceTree = "<group>"; };
 		CAA0D7852A0BFD58002FDC53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				CAA0D7852A0BFD58002FDC53 /* ContentView.swift */,
 				CAE869192A0D73BE0014C605 /* ConvertVzdialenostView.swift */,
 				CA1D45B42A0FB7CF00B33652 /* ConvertObjemView.swift */,
+				CA1D45B82A0FC5AA00B33652 /* ConvertHmotnostView.swift */,
 				CA1D45B62A0FBC7600B33652 /* LinkView.swift */,
 				CAA0D7872A0BFD59002FDC53 /* Assets.xcassets */,
 				CAA0D7892A0BFD59002FDC53 /* Preview Content */,
@@ -268,6 +271,7 @@
 			files = (
 				CAA0D7862A0BFD58002FDC53 /* ContentView.swift in Sources */,
 				CAE8691A2A0D73BE0014C605 /* ConvertVzdialenostView.swift in Sources */,
+				CA1D45B92A0FC5AA00B33652 /* ConvertHmotnostView.swift in Sources */,
 				CA1D45B52A0FB7CF00B33652 /* ConvertObjemView.swift in Sources */,
 				CAA0D7842A0BFD58002FDC53 /* KonvertorApp.swift in Sources */,
 				CA1D45B72A0FBC7600B33652 /* LinkView.swift in Sources */,
