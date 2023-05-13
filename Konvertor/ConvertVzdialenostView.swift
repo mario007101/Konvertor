@@ -31,6 +31,8 @@ struct ConvertVzdialenostView: View {
         return konvertovanieNaMilimetre
     }
     
+    //View
+    
     var body: some View {
         Form {
             Section("Zadaj vstupné jednotky") {
