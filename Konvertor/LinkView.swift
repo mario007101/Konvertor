@@ -42,7 +42,7 @@ struct LinkView: View {
             
         }
         .frame(height: 150)
-        .padding(7)
+        .padding(10)
     }
 }
 
