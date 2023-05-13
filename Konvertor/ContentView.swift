@@ -38,7 +38,7 @@ struct ContentView: View {
             .navigationTitle("Konvertor")
         }
         
-        //Len pre iPad
+        //Len pre iPad preview
         //.navigationViewStyle(.stack)
     }
 }
