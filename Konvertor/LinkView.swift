@@ -17,7 +17,7 @@ struct LinkView: View {
         ZStack{
             Rectangle()
                 .fill(LinearGradient(colors: [topColor, bottomColor], startPoint: .topLeading, endPoint: .bottomTrailing))
-                .cornerRadius(7)
+                .cornerRadius(13)
             
             VStack {
                 HStack{
