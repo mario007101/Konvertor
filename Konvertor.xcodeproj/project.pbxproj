@@ -10,6 +10,7 @@
 		CA1D45B52A0FB7CF00B33652 /* ConvertObjemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D45B42A0FB7CF00B33652 /* ConvertObjemView.swift */; };
 		CA1D45B72A0FBC7600B33652 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D45B62A0FBC7600B33652 /* LinkView.swift */; };
 		CA1D45B92A0FC5AA00B33652 /* ConvertHmotnostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D45B82A0FC5AA00B33652 /* ConvertHmotnostView.swift */; };
+		CA5FE7AC2A1113E100791919 /* ContentTeplotaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FE7AB2A1113E100791919 /* ContentTeplotaView.swift */; };
 		CAA0D7842A0BFD58002FDC53 /* KonvertorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0D7832A0BFD58002FDC53 /* KonvertorApp.swift */; };
 		CAA0D7862A0BFD58002FDC53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0D7852A0BFD58002FDC53 /* ContentView.swift */; };
 		CAA0D7882A0BFD59002FDC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA0D7872A0BFD59002FDC53 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		CA1D45B42A0FB7CF00B33652 /* ConvertObjemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertObjemView.swift; sourceTree = "<group>"; };
 		CA1D45B62A0FBC7600B33652 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		CA1D45B82A0FC5AA00B33652 /* ConvertHmotnostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertHmotnostView.swift; sourceTree = "<group>"; };
+		CA5FE7AB2A1113E100791919 /* ContentTeplotaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTeplotaView.swift; sourceTree = "<group>"; };
 		CAA0D7802A0BFD58002FDC53 /* Konvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Konvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA0D7832A0BFD58002FDC53 /* KonvertorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonvertorApp.swift; sourceTree = "<group>"; };
 		CAA0D7852A0BFD58002FDC53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				CAA0D7832A0BFD58002FDC53 /* KonvertorApp.swift */,
 				CAA0D7852A0BFD58002FDC53 /* ContentView.swift */,
+				CA5FE7AB2A1113E100791919 /* ContentTeplotaView.swift */,
 				CAE869192A0D73BE0014C605 /* ConvertVzdialenostView.swift */,
 				CA1D45B42A0FB7CF00B33652 /* ConvertObjemView.swift */,
 				CA1D45B82A0FC5AA00B33652 /* ConvertHmotnostView.swift */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5FE7AC2A1113E100791919 /* ContentTeplotaView.swift in Sources */,
 				CAA0D7862A0BFD58002FDC53 /* ContentView.swift in Sources */,
 				CAE8691A2A0D73BE0014C605 /* ConvertVzdialenostView.swift in Sources */,
 				CA1D45B92A0FC5AA00B33652 /* ConvertHmotnostView.swift in Sources */,

@@ -28,6 +28,12 @@ struct ContentView: View {
                 } label: {
                     LinkView(topColor: .green, bottomColor: .teal, headerTitle: "Hmotnosť", titleImage: "imageKG")
                 }
+                
+                NavigationLink {
+                    ContentTeplotaView()
+                } label: {
+                    LinkView(topColor: .red, bottomColor: .blue, headerTitle: "Teplota", titleImage: "imageC")
+                }
             }
             
            // List{
