@@ -27,15 +27,15 @@ struct ContentTeplotaView: View {
         case .k:
             return zadanaTeplota - 273.15
         }
-}
+    }
     
     var body: some View {
         Form {
             Section("Teplota v °C"){
                 
-                TextField("Vlož teplotu",value: $zadanaTeplota,format: .number)
+                TextField("Vlož teplotu",value: $zadanaTeplota, format: .number)
                 
-                Picker("Vyber vstupnú teplotu",selection: $vstupnaTeplota){
+                Picker("Vyber vstupnú teplotu", selection: $vstupnaTeplota){
                     
                     ForEach(TeplotaHodnoty.allCases, id: \.self){
                         Text($0.rawValue)
@@ -46,7 +46,6 @@ struct ContentTeplotaView: View {
             }
             
             Section("Teplotné jednotky"){
-                
                 ForEach(TeplotaHodnoty.allCases, id: \.self) { teplota in
                         let teplotaVypis = premen(vstupnaTeplotaC, output: TeplotaHodnoty(rawValue: teplota.rawValue)!)
                         Text("\(teplotaVypis) \(teplota.rawValue)")
@@ -61,9 +60,9 @@ struct ContentTeplotaView: View {
         case .c:
             return vstup
         case .f:
-            return  9/5 * zadanaTeplota + 32
+            return  9/5 * vstup + 32
         case .k:
-            return zadanaTeplota + 273.15
+            return vstup + 273.15
         }
     }
 }
