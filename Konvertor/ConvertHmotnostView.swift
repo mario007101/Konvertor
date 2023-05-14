@@ -18,7 +18,7 @@ enum Hmotnosti: String, CaseIterable {
 
 struct ConvertHmotnostView: View {
     @State private var zadanaHmotnost: Double = 1
-    @State private var vstupnaHmotnost: Hmotnosti = .gram
+    @State private var vstupnaHmotnost: Hmotnosti = .kilo
     
     var vstupnaHmotnostKG: Double {
         switch vstupnaHmotnost {
@@ -42,12 +42,18 @@ struct ConvertHmotnostView: View {
             
             Section("Zadaj hmotnosť v kg"){
                 TextField("Vlož hmotnosť", value: $zadanaHmotnost, format: .number)
+                Picker("Hmotnosti", selection: $vstupnaHmotnost){
+                    ForEach(Hmotnosti.allCases, id: \.self){
+                        Text($0.rawValue)
+                    }
+                }
+                .pickerStyle(.segmented)
             }
                         
             Section("Objemové jednotky") {
                 ForEach(Hmotnosti.allCases, id: \.self){
                     let hmotnostVypis = premen(vstupnaHmotnostKG, output: Hmotnosti(rawValue: $0.rawValue)!)
-                    Text("\(hmotnostVypis, specifier: "%.2f") \($0.rawValue)")
+                    Text("\(hmotnostVypis, specifier: "%.4f") \($0.rawValue)")
                 }
             }
         }
@@ -57,17 +63,17 @@ struct ConvertHmotnostView: View {
     func premen(_ vstup: Double, output: Hmotnosti) -> Double {
         switch output {
         case .tona:
-            return zadanaHmotnost / 1_000
+            return vstup / 1_000
         case .cent:
-            return zadanaHmotnost / 100
+            return vstup / 100
         case .kilo:
-            return zadanaHmotnost
+            return vstup
         case .dekaGram:
-            return zadanaHmotnost * 100
+            return vstup * 100
         case .gram:
-            return zadanaHmotnost * 1_000
+            return vstup * 1_000
         case .miliGram:
-            return zadanaHmotnost * 1_000_000
+            return vstup * 1_000_000
         }
     }
 }

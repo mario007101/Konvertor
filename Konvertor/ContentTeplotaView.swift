@@ -42,7 +42,7 @@ struct ContentTeplotaView: View {
                     }
                     
                 }
-                .pickerStyle(.menu)
+                .pickerStyle(.segmented)
             }
             
             Section("Teplotné jednotky"){
