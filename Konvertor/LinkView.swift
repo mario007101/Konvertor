@@ -37,7 +37,7 @@ struct LinkView: View {
                     .resizable()
                     .frame(width: 60, height: 60)
                     .opacity(0.7)
-                    .offset(x: 100, y: 0)
+                    .offset(x: 145, y: -10)
             }
             
         }
