@@ -31,8 +31,6 @@ struct LinkView: View {
                     Spacer()
                 }
                 
-                Spacer()
-                
                 Image(titleImage)
                     .resizable()
                     .frame(width: 60, height: 60)
