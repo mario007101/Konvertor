@@ -41,7 +41,7 @@ struct ContentView: View {
            //     NavigationLink("Objem", destination: ConvertObjemView())
            //}
             
-            .navigationTitle("Konvertor")
+            .navigationTitle("Prevody")
         }
         
         //Len pre iPad preview
